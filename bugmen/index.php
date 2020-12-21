@@ -20,7 +20,6 @@
 	  </div>
 	  
 		<div class="main">
-		php stuff
 			<?php 
             $page = isset($_GET['page']) ? $_GET['page'] : 'home';
             if(!file_exists($page.".php")){
